@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reset Image</title>
+</head>
+<body>
+    <h2>Reset Image</h2>
+    <form action="/reset_image" method="post" enctype="multipart/form-data">
+        <label for="username">Username:</label>
+        <input type="text" name="username" required><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" required><br>
+        <label for="image">Upload New Image:</label>
+        <input type="file" name="image" accept="image/*" required><br>
+        <input type="submit" value="Reset Image">
+    </form>
+</body>
+</html>
